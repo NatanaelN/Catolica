@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 void main() {
-    /*4. Fa?a um programa que, dada uma string, diga se ela e um pal??ndromo ou n?ao. Lembrando que um pal??ndromo
+    /*4. Faça um programa que, dada uma string, diga se ela e um palíndromo ou não. Lembrando que um palíndromo
     e uma palavra que tenha a propriedade de poder ser lida tanto da direita para a esquerda como da esquerda
     para a direita. Exemplo:
     ? ovo
@@ -10,18 +10,28 @@ void main() {
     ? Anotaram a data da maratona*/
 
     char frase[100];
-    char frase2[100];
-    
-    printf("Entre com uma frase: ");
+    char r_frase[100];
+    char space[] = {' ','\0'};
+    printf("Frase: ");
     fgets(frase, 100, stdin);
-    int len = strlen(frase);
-    int i;
-    int pos = len;
-    for (i = 0; i < len; i++){
-        frase2[i] = frase[pos-2];
+    
+    int len = strlen(frase) - 1;
+    int i, j, pos = len;
+    for (i = 0; i < len + 1; i++){
+        frase[pos] = tolower(frase[pos]);
+        r_frase[i] = frase[pos];
         pos--;
     }
-    printf("%s\t%d\n", frase, len);
-    printf("frase: %s", frase2);
-    printf("%d", pos);
+    for (j = 0; j < len + 1; j++){
+        if (frase[j] != r_frase[j]){
+            printf("Não é palíndromo.\n");
+            printf("%s\n", frase);
+            printf("%s\n", r_frase);
+            break;           
+        } else {
+            printf("É um palíndromo.\n");
+            printf("%s\n", frase);
+            printf("%s\n", r_frase);
+        }
+    }
 }

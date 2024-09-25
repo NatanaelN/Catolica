@@ -1,15 +1,15 @@
-/* Algoritmos e Programação Estruturada
-1º Semestre. Aluno =  Natanael Ferreira Neves
-Lista de Exercícios 06*/
+/* Algoritmos e Programaï¿½ï¿½o Estruturada
+1ï¿½ Semestre. Aluno =  Natanael Ferreira Neves
+Lista de Exercï¿½cios 06*/
 #include <stdio.h>
-#include <strings.h>
+#include <string.h>
 
 //
 // Created by natan on 24/09/2024.
 //
 
 void main() {
-    /*3. FaÂ¸ca um programa que receba uma string e a imprima de trÂ´as-para-frente.*/
+    /*3. FaÃ§a um programa que receba uma string e a imprima de trÃ¡s-para-frente.*/
     char frase[200];
     //printf("%d\n", strlen(frase));
     printf("Digite uma frase:");
