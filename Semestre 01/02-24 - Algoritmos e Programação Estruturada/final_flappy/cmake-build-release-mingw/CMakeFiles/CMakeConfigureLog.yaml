@@ -1,0 +1,133 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 01/02-24 - Algoritmos e Programação Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/3.30.5/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/UCB/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-dgq33e"
+      binary: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/UCB/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-dgq33e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 01/02-24 - Algoritmos e Programação Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-dgq33e'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_e5cf7/fast
+        C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e5cf7.dir\\build.make CMakeFiles/cmTC_e5cf7.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/UCB/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-dgq33e'
+        Building C object CMakeFiles/cmTC_e5cf7.dir/CMakeCCompilerABI.c.obj
+        "C:\\PROGRA~1\\JetBrains\\CLion 2024.2.2\\bin\\mingw\\bin\\gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_e5cf7.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\PROGRA~1\\JetBrains\\CLion 2024.2.2\\bin\\mingw\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e5cf7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e5cf7.dir\\'
+         C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_e5cf7.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\natan\\AppData\\Local\\Temp\\cchbeOtk.s
+        GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e5cf7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e5cf7.dir\\'
+         as -v -o CMakeFiles\\cmTC_e5cf7.dir\\CMakeCCompilerABI.c.obj C:\\Users\\natan\\AppData\\Local\\Temp\\cchbeOtk.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../lib/gcc/;C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e5cf7.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e5cf7.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_e5cf7.exe
+        "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e5cf7.dir\\link.txt --verbose=1
+        "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e5cf7.dir/objects.a
+        "C:\\PROGRA~1\\JetBrains\\CLion 2024.2.2\\bin\\mingw\\bin\\ar.exe" qc CMakeFiles\\cmTC_e5cf7.dir/objects.a @CMakeFiles\\cmTC_e5cf7.dir\\objects1.rsp
+        C:\\PROGRA~1\\JetBrains\\CLion 2024.2.2\\bin\\mingw\\bin\\ar.exe: CMakeFiles\\cmTC_e5cf7.dir/objects.a: error reading CMakeFiles/cmTC_e5cf7.dir/CMakeCCompilerABI.c.obj: No such file or directory
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_e5cf7.dir\\build.make:99: cmTC_e5cf7.exe] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/UCB/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-dgq33e'
+        mingw32-make: *** [Makefile:126: cmTC_e5cf7/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe"
+    directories:
+      source: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/UCB/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-kxgj2q"
+      binary: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/UCB/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-kxgj2q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 01/02-24 - Algoritmos e Programação Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-kxgj2q'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_74abe/fast
+        C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_74abe.dir\\build.make CMakeFiles/cmTC_74abe.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/UCB/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-kxgj2q'
+        Building C object CMakeFiles/cmTC_74abe.dir/testCCompiler.c.obj
+        "C:\\PROGRA~1\\JetBrains\\CLion 2024.2.2\\bin\\mingw\\bin\\gcc.exe"   -fdiagnostics-color=always -o CMakeFiles\\cmTC_74abe.dir\\testCCompiler.c.obj -c "C:\\Users\\natan\\OneDrive\\Documentos\\Universidade Cat├│lica de Bras├¡lia\\UCB\\Semestre 01\\02-24 - Algoritmos e Programa├º├úo Estruturada\\final_flappy\\cmake-build-release-mingw\\CMakeFiles\\CMakeScratch\\TryCompile-kxgj2q\\testCCompiler.c"
+        \x1b[01m\x1b[Kcc1.exe:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KC:\\Users\\natan\\OneDrive\\Documentos\\Universidade Cat├â┬│lica de Bras├â┬¡lia\\UCB\\Semestre 01\\02-24 - Algoritmos e Programa├â┬º├â┬úo Estruturada\\final_flappy\\cmake-build-release-mingw\\CMakeFiles\\CMakeScratch\\TryCompile-kxgj2q\\testCCompiler.c: No such file or directory
+        compilation terminated.
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_74abe.dir\\build.make:77: CMakeFiles/cmTC_74abe.dir/testCCompiler.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/UCB/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-kxgj2q'
+        mingw32-make: *** [Makefile:126: cmTC_74abe/fast] Error 2
+        
+      exitCode: 2
+...

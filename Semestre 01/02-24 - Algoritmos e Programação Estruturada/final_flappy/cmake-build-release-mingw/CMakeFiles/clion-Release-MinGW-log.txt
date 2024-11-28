@@ -1,0 +1,66 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_C_COMPILER=C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/g++.exe" -G "MinGW Makefiles" -S "C:\Users\natan\OneDrive\Documentos\Universidade Católica de Brasília\UCB\Semestre 01\02-24 - Algoritmos e Programação Estruturada\final_flappy" -B "C:\Users\natan\OneDrive\Documentos\Universidade Católica de Brasília\UCB\Semestre 01\02-24 - Algoritmos e Programação Estruturada\final_flappy\cmake-build-release-mingw"
+-- The C compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+CMake Warning in C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 01/02-24 - Algoritmos e Programação Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-dgq33e/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 01/02-24 - Algoritmos e Programação Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-dgq33e/CMakeFiles/cmTC_e5cf7.dir/
+
+  has 241 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CMakeCCompilerABI.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe
+CMake Warning in C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 01/02-24 - Algoritmos e Programação Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-kxgj2q/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 01/02-24 - Algoritmos e Programação Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-kxgj2q/CMakeFiles/cmTC_74abe.dir/
+
+  has 241 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    testCCompiler.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe - broken
+CMake Error at C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: 'C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 01/02-24 - Algoritmos e Programação Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-kxgj2q'
+    
+    Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_74abe/fast
+    C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_74abe.dir\build.make CMakeFiles/cmTC_74abe.dir/build
+    mingw32-make[1]: Entering directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/UCB/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-kxgj2q'
+    Building C object CMakeFiles/cmTC_74abe.dir/testCCompiler.c.obj
+    "C:\PROGRA~1\JetBrains\CLion 2024.2.2\bin\mingw\bin\gcc.exe"   -fdiagnostics-color=always -o CMakeFiles\cmTC_74abe.dir\testCCompiler.c.obj -c "C:\Users\natan\OneDrive\Documentos\Universidade Cat├│lica de Bras├¡lia\UCB\Semestre 01\02-24 - Algoritmos e Programa├º├úo Estruturada\final_flappy\cmake-build-release-mingw\CMakeFiles\CMakeScratch\TryCompile-kxgj2q\testCCompiler.c"
+    cc1.exe: fatal error: C:\Users\natan\OneDrive\Documentos\Universidade Cat├â┬│lica de Bras├â┬¡lia\UCB\Semestre 01\02-24 - Algoritmos e Programa├â┬º├â┬úo Estruturada\final_flappy\cmake-build-release-mingw\CMakeFiles\CMakeScratch\TryCompile-kxgj2q\testCCompiler.c: No such file or directory
+    compilation terminated.
+    mingw32-make[1]: *** [CMakeFiles\cmTC_74abe.dir\build.make:77: CMakeFiles/cmTC_74abe.dir/testCCompiler.c.obj] Error 1
+    mingw32-make[1]: Leaving directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/UCB/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/final_flappy/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-kxgj2q'
+    mingw32-make: *** [Makefile:126: cmTC_74abe/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!

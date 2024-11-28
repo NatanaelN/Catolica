@@ -1,0 +1,3 @@
+C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 01/02-24 - Algoritmos e Programação Estruturada/final_flappy/cmake-build-debug-mingw/CMakeFiles/final_flappy.dir
+C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 01/02-24 - Algoritmos e Programação Estruturada/final_flappy/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/UCB/Semestre 01/02-24 - Algoritmos e Programação Estruturada/final_flappy/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
