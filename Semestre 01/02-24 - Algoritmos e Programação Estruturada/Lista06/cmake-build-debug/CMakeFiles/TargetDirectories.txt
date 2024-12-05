@@ -1,3 +1,0 @@
-C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília - UCB/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/Lista06/cmake-build-debug/CMakeFiles/Lista06.dir
-C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília - UCB/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/Lista06/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília - UCB/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/Lista06/cmake-build-debug/CMakeFiles/rebuild_cache.dir
