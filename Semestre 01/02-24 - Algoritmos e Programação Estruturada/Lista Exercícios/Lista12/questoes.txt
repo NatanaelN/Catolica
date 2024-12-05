@@ -1,0 +1,65 @@
+2 Acerca de alocação dinâmica de memória, responda:
+a) Qual o comportamento da função free?
+
+Free() funciona no liberamento da memória alocada de forma dinâmica, de modo que avisa ao sistema que aquele trecho de memória está disponível.
+O mesmo só pode ser utilizado para alocação dinâmica, o comando não é aceito para liberar a memória de uma variável/estrutura alocada estaticamente.
+
+b) Após chamar free, o ponteiro pode ser utilizado?
+
+Pode, mas não deve. O comportamento do free libera a memória, contudo, o acesso aquela posição de memória ainda é possível ao utilizar o ponteiro.
+O adequado é atribuir ao ponteiro o valor de NULL, isto evita o acesso indevido e vazamentos de memória.
+
+c) O que causa vazamentos de memória?
+
+Ao não liberar a memória alocada dinamicamente, acontece o acumulo dos dados na memória, ocasionando o vazamento de memória dado um certo tempo.
+
+d) O que a instrução malloc retorna quando não consegue realizar a alocação?
+
+Quando não há alocação de memória o padrão é retornar NULL.
+
+e) Explique a instrução calloc.
+
+calloc, assim como malloc, é usado para alocar memória de forma dinâmica.
+
+f) Qual a diferença entre as instruções malloc e calloc?
+
+Basicamente, a diferença entre calloc e malloc reside na implementação, enquanto malloc necessita de apenas um argumento, calloc solicita 2 para definir o tamanho necessário para alocação. Um outro ponto que diferencia os dois é que ao usar calloc, é atribuído o valor 0 a cada espaço de memória enquanto o malloc podemos verificar resíduos de memória (lixo). 
+Devido essa inicialização do calloc o mesmo tende a ser um pouco, muito pouco mesmo, menos veloz que malloc pois malloc não inicializa a memória.
+
+3 Acerca de Manipulação de Arquivos, responda:
+a) Explique os diferentes modos de abertura de arquivos.
+
+Por padrão, existem 3 modos de abertura de arquivo que são:
+prefixo "r"	Leitura: Abre o arquivo para leitura. O arquivo deve existir; caso contrário, retorna NULL.
+prefixo "w"	Escrita: Cria um arquivo vazio para escrita. Se o arquivo já existir, ele será sobrescrito.
+prefixo "a"	Adição: Abre o arquivo para escrita no final (append). Se não existir, o arquivo será criado. 
+
+Cada modo tem sua variante plus "+", sendo:
+"r+"	Leitura e Escrita: Abre o arquivo para leitura e escrita. O arquivo deve existir.
+"w+"	Leitura e Escrita: Cria um arquivo vazio para leitura e escrita. Sobrescreve o arquivo existente.
+"a+"	Leitura e Escrita: Abre o arquivo para leitura e escrita no final (append). Cria o arquivo se ele não existir.
+
+Além destes, para trabalhar com arquivos binários é necessário o acréscimo de "b" após o prefixo. A funcionalidade é a mesma que a padrão, todavia direcionada a arquivos binários.
+
+b) Explique o funcionamento das funções fgets, fprintf, fread, fwrite.
+
+A função fgets() é usada para ler uma linha de texto de um arquivo, armazenando-a em um buffer. Ela é útil para trabalhar com arquivos texto, incluindo o caractere de quebra de linha se presente, e termina a string com \0.
+
+A função fprintf() escreve texto formatado em um arquivo, como printf() faz no console. É usada para salvar informações organizadas, como relatórios ou dados estruturados, diretamente em arquivos texto.
+
+A função fread() permite ler dados binários de um arquivo e armazená-los em uma área da memória. É usada principalmente com arquivos que contêm dados não textuais, como imagens ou estruturas.
+
+Já a função fwrite() grava dados binários em um arquivo, copiando diretamente da memória para o arquivo. Ela é ideal para salvar informações como matrizes, estruturas ou arquivos compactados.
+
+4 Qual a saída do seguinte código?
+
+0.00
+
+6 Qual o valor de w após a execução do seguinte trecho código:
+
+w = 16
+
+8 O que é um vetor? Explique o funcionamento de um vetor e como ele é tratado no C.
+
+Um vetor é uma estrutura de dados que armazena uma coleção de elementos do mesmo tipo. Ele é tratado como um ponteiro para o primeiro elemento do conjunto, de modo que, v[0] == v.
+O acesso a vetores é dado por índice, isso torna o mais seguro do que trabalharmos com ponteiro, pois apesar o do nome do vetor ser um ponteiro em si, não podemos fazê-lo apontar pra outro vetor/variável igual comumente mente é feito com ponteiros.

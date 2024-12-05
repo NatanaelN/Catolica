@@ -1,0 +1,31 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
+
+typedef struct {
+	char nome[100];
+	int idade;
+	int leito;
+
+} paciente_t;
+
+void alocapaciente(paciente_t *paciente, char *identificacao, int idade) {
+	strcpy(paciente->nome, identificacao);
+	paciente->idade = idade;
+	int andar = (rand() % 5) + 1; // andar 0 seria Térreo
+	int leito = rand() % 10;
+	paciente->leito = andar * 100 + leito;
+
+}
+void main(void)
+{
+	srand(time(NULL));
+	paciente_t paciente;
+	alocapaciente(&paciente, "Bruno Henrique", 19);
+
+	printf("Paciente:\t%s\n", paciente.nome);
+	printf("Idade:\t%d\n", paciente.idade);
+	printf("Leito\t%d", paciente.leito);
+}
