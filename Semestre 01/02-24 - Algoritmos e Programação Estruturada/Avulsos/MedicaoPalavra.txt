@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#define TAM 3
+
+typedef struct Paciente {
+	char nome[100];
+	int idade;
+	int leito;
+}paciente_t;
+
+char* complemento(char *palavra){
+	int i;
+	int t = strlen(palavra);
+	char pass[100] = "";
+	if (t < 8){
+	    for (i = 0; i < t; i++){
+	        strcat(pass, " ");
+	    }
+	}
+	strcat(palavra, pass);
+	return palavra;
+}
+void main(void){
+	paciente_t *pacientes;
+	int i;
+	pacientes = (paciente_t *) malloc (TAM * sizeof(paciente_t));
+	if (pacientes == NULL){
+		printf("Erro de alocação");
+		exit(1);
+	}
+	
+	for (i = 0; i < TAM; i++){
+		printf("Digite o nome do paciente %d: ", i+1);
+		fgets(pacientes[i].nome, sizeof(pacientes[i].nome), stdin);
+		
+		printf("Entre com a idade: ");
+		scanf("%d", &pacientes[i].idade);
+		fflush(stdin);
+		
+		printf("Entre com o leito: ");
+		scanf("%d", &pacientes[i].leito);
+		fflush(stdin);		
+	}
+	printf("Pacientes:\n");
+	for (i = 0; i < TAM; i++){
+		printf("%s:\t%s", complemento("Pacient"), pacientes[i].nome);
+		printf("%s:\t%10d\n", complemento("Idade"), pacientes[i].idade);
+		printf("%s:\t%10d\n", complemento("Leito"), pacientes[i].leito);
+		
+}
+}

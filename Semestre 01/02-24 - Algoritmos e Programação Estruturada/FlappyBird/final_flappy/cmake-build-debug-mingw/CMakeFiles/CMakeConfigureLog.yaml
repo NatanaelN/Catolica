@@ -1,0 +1,432 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/3.30.5/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-4zkj4t"
+      binary: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-4zkj4t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-4zkj4t'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_f3f48/fast
+        C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f3f48.dir\\build.make CMakeFiles/cmTC_f3f48.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-4zkj4t'
+        mingw32-make[1]: CMakeFiles\\cmTC_f3f48.dir\\build.make: No such file or directory
+        mingw32-make[1]: *** No rule to make target 'CMakeFiles\\cmTC_f3f48.dir\\build.make'.  Stop.
+        mingw32-make[1]: Leaving directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-4zkj4t'
+        mingw32-make: *** [Makefile:126: cmTC_f3f48/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe"
+    directories:
+      source: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-8eb9tw"
+      binary: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-8eb9tw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-8eb9tw'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_0b312/fast
+        C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0b312.dir\\build.make CMakeFiles/cmTC_0b312.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-8eb9tw'
+        mingw32-make[1]: CMakeFiles\\cmTC_0b312.dir\\build.make: No such file or directory
+        mingw32-make[1]: *** No rule to make target 'CMakeFiles\\cmTC_0b312.dir\\build.make'.  Stop.
+        mingw32-make[1]: Leaving directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-8eb9tw'
+        mingw32-make: *** [Makefile:126: cmTC_0b312/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/3.30.5/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-bt2q4p"
+      binary: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-bt2q4p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-bt2q4p'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_6464d/fast
+        C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6464d.dir\\build.make CMakeFiles/cmTC_6464d.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-bt2q4p'
+        mingw32-make[1]: CMakeFiles\\cmTC_6464d.dir\\build.make: No such file or directory
+        mingw32-make[1]: *** No rule to make target 'CMakeFiles\\cmTC_6464d.dir\\build.make'.  Stop.
+        mingw32-make[1]: Leaving directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-bt2q4p'
+        mingw32-make: *** [Makefile:126: cmTC_6464d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe"
+    directories:
+      source: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-req6bo"
+      binary: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-req6bo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-req6bo'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_07661/fast
+        C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_07661.dir\\build.make CMakeFiles/cmTC_07661.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-req6bo'
+        mingw32-make[1]: CMakeFiles\\cmTC_07661.dir\\build.make: No such file or directory
+        mingw32-make[1]: *** No rule to make target 'CMakeFiles\\cmTC_07661.dir\\build.make'.  Stop.
+        mingw32-make[1]: Leaving directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-req6bo'
+        mingw32-make: *** [Makefile:126: cmTC_07661/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/3.30.5/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-nzpmun"
+      binary: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-nzpmun"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-nzpmun'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_80c70/fast
+        C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_80c70.dir\\build.make CMakeFiles/cmTC_80c70.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-nzpmun'
+        mingw32-make[1]: CMakeFiles\\cmTC_80c70.dir\\build.make: No such file or directory
+        mingw32-make[1]: *** No rule to make target 'CMakeFiles\\cmTC_80c70.dir\\build.make'.  Stop.
+        mingw32-make[1]: Leaving directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-nzpmun'
+        mingw32-make: *** [Makefile:126: cmTC_80c70/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe"
+    directories:
+      source: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-tzdgx3"
+      binary: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-tzdgx3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-tzdgx3'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_cdc24/fast
+        C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cdc24.dir\\build.make CMakeFiles/cmTC_cdc24.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-tzdgx3'
+        mingw32-make[1]: CMakeFiles\\cmTC_cdc24.dir\\build.make: No such file or directory
+        mingw32-make[1]: *** No rule to make target 'CMakeFiles\\cmTC_cdc24.dir\\build.make'.  Stop.
+        mingw32-make[1]: Leaving directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-tzdgx3'
+        mingw32-make: *** [Makefile:126: cmTC_cdc24/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/3.30.5/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-hg2x15"
+      binary: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-hg2x15"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-hg2x15'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_f5622/fast
+        C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f5622.dir\\build.make CMakeFiles/cmTC_f5622.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-hg2x15'
+        mingw32-make[1]: CMakeFiles\\cmTC_f5622.dir\\build.make: No such file or directory
+        mingw32-make[1]: *** No rule to make target 'CMakeFiles\\cmTC_f5622.dir\\build.make'.  Stop.
+        mingw32-make[1]: Leaving directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-hg2x15'
+        mingw32-make: *** [Makefile:126: cmTC_f5622/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe"
+    directories:
+      source: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-69hkye"
+      binary: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-69hkye"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-69hkye'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_d684e/fast
+        C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d684e.dir\\build.make CMakeFiles/cmTC_d684e.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-69hkye'
+        mingw32-make[1]: CMakeFiles\\cmTC_d684e.dir\\build.make: No such file or directory
+        mingw32-make[1]: *** No rule to make target 'CMakeFiles\\cmTC_d684e.dir\\build.make'.  Stop.
+        mingw32-make[1]: Leaving directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-69hkye'
+        mingw32-make: *** [Makefile:126: cmTC_d684e/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/3.30.5/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-r92rdj"
+      binary: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-r92rdj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-r92rdj'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_a2038/fast
+        C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a2038.dir\\build.make CMakeFiles/cmTC_a2038.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-r92rdj'
+        mingw32-make[1]: CMakeFiles\\cmTC_a2038.dir\\build.make: No such file or directory
+        mingw32-make[1]: *** No rule to make target 'CMakeFiles\\cmTC_a2038.dir\\build.make'.  Stop.
+        mingw32-make[1]: Leaving directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-r92rdj'
+        mingw32-make: *** [Makefile:126: cmTC_a2038/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe"
+    directories:
+      source: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-kxoa4w"
+      binary: "C:/Users/natan/OneDrive/Documentos/Universidade Cat\u00f3lica de Bras\u00edlia/Catolica/Semestre 01/02-24 - Algoritmos e Programa\u00e7\u00e3o Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-kxoa4w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natan/OneDrive/Documentos/Universidade Católica de Brasília/Catolica/Semestre 01/02-24 - Algoritmos e Programação Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-kxoa4w'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 "C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe" -f Makefile cmTC_06b9c/fast
+        C:/PROGRA~1/JetBrains/CLion 2024.2.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_06b9c.dir\\build.make CMakeFiles/cmTC_06b9c.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-kxoa4w'
+        mingw32-make[1]: CMakeFiles\\cmTC_06b9c.dir\\build.make: No such file or directory
+        mingw32-make[1]: *** No rule to make target 'CMakeFiles\\cmTC_06b9c.dir\\build.make'.  Stop.
+        mingw32-make[1]: Leaving directory 'C:/Users/natan/OneDrive/Documentos/Universidade Cat¾lica de BrasÝlia/Catolica/Semestre 01/02-24 - Algoritmos e ProgramaþÒo Estruturada/FlappyBird/final_flappy/cmake-build-debug-mingw/CMakeFiles/CMakeScratch/TryCompile-kxoa4w'
+        mingw32-make: *** [Makefile:126: cmTC_06b9c/fast] Error 2
+        
+      exitCode: 2
+...
