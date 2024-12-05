@@ -7,3 +7,31 @@
 /dataSources/
 /dataSources.local.xml
 /.xml
+# Ignorar arquivos de configuração do CLion
+.idea/
+.idea\
+cmake-build-debug/
+cmake-build-release/
+cmake-build-release-mingw\
+cmake-build-release-mingw/
+cmake-build-debug\
+cmake-build-debug/
+
+# Ignorar arquivos de configuração do VS Code
+.vscode/
+
+# Ignorar binários e arquivos de compilação
+*.o
+*.class
+
+# Ignorar arquivos de build do CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+build/
+
+# Ignorar arquivos temporários do sistema
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
