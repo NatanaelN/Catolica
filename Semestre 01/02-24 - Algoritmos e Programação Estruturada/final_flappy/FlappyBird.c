@@ -92,8 +92,6 @@ void moverPilares(Pilar pilares[], int *pontuacao) {
             /*pilares[i].buracoY =
                     rand() % (maxBuracoY - minBuracoY + 1) + minBuracoY;*/
 
-
-            //adicionado pelo gpt
             if (maxBuracoY > minBuracoY) {
                 pilares[i].buracoY = rand() % (maxBuracoY - minBuracoY + 1) + minBuracoY;
             } else {
